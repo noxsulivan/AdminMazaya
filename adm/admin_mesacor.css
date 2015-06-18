@@ -1,0 +1,15 @@
+
+.site { background: #fff url(imagens/fundo_admin_mesacor.jpg) top right repeat-x; }
+	
+h2 {  background-color: #155CA0; }
+strong { color:#155CA0; }
+	form.edit input { color:#155CA0;}
+				
+				#formGeral .required { border:1px #155CA0 solid; color: #155CA0;}
+				
+				.obrigatorio { color:#155CA0;}
+					#formGeral .validation-failed { border: 1px #155CA0 solid !important; }
+					#formGeral .validation-advice { color: #155CA0 !important;}
+					
+				
+				.yellow { background-color: #155CA0; }

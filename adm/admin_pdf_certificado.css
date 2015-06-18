@@ -1,0 +1,261 @@
+* {
+	font-family:Tahoma, Geneva, sans-serif;
+	letter-spacing: 0em;
+	margin: 0;
+	padding:0;
+}
+html { font-size:14px;}
+body { }
+.site { overflow:hidden; }
+	
+#topo {	position: relative; padding:3px 5px; font-size:12px; color:#FFFFFF; height:40px;}	
+#topo h1 {color:#FFFFFF; font-size:18px;}	
+
+.icone { behavior: url(../../_shared/iepngfix.htc);}
+#menu {	position: relative; height:75px;}
+
+ 	div#menu li, div#menu li ul li{ float:left;
+	}
+	.nivel1{  font-size:15px; color:#333; height:30px; line-height:30px; display:block; padding:0 3px; border-left:1px #666 solid; }
+	.nivel2{ font-weight:normal;  font-size:13px; color:#333; padding:0 5px 0 0 ; height:35px; line-height:35px; }
+	.itemMenu a:hover {
+		color:#666;
+	}
+	.grupoMenu { position:absolute; top:21px; }
+
+
+#conteudo { width:100%; overflow:hidden; position:absolute; }
+#relatorioImpressao { margin:10px;}
+#frame { width:100%; overflow:hidden; position:absolute; }
+
+	.titulo { position:relative; color:#FFFFFF; height:80px;}
+	.content { position:relative; overflow:auto;}
+	
+	#scroll { overflow:auto; }
+
+h1 { color: #ffffff; padding:3px 15px; text-align:center; font-weight:40px}
+h2 {  color: #fff; padding: 5px; font-size: 22px;}
+#relatorioImpressao h2 {border-width: 0 0 3px 0; border-color: #000; border-style: solid;  background:none; color:#000;}
+h3 { color: #000; padding: 5px;	font-size: 14px;	margin: 2px 0; text-align:left;}
+h4 {	font-size: 10px;	margin-top: 0;	color: #000;}
+a, .hoverClassName { text-decoration:none; }
+ul { list-style:none;}
+img { border:none;}
+td { font-size:12px; padding:3px;}
+strong { }
+small { font-size:9px; line-height:10px; color:#666; text-align:center;}
+form { display:inline;}
+table {border-spacing: 0; border:0; width:100%;  border-collapse: separate; margin-bottom:5px;  }
+td { font-size:12px; vertical-align: top; padding:2px; margin:0; width:25%; border-width: 0 0 1px 0; border-color: #ccc; border-style: solid; }
+
+#caixaLogin{
+	position:relative;
+	padding:74px 15px 2px;
+	color:#FFFFFF; height:40px; line-height:40px;
+	float:left;
+}
+#mensagemLogin{
+	position:relative;
+	padding:82px 15px 2px;
+	font-size:16px;
+	color:#FFFFFF;
+	float:left;
+}
+#caixaLogin label { padding:5px; font-size:12px; line-height:24px;}
+#caixaLogin input { width:176px; padding:2px 5px; border:0; margin:2px; font-weight:normal; position:relative;}
+#caixaLogin #botaoLogin { width:70px; height:25px; padding:0 5px; border:none; }
+#caixaLogin a { text-decoration:none; color:#fff; font-size:12px;}
+
+#capa {
+	position: relative;
+	margin: 50px auto; width:80%;
+	border: 1px solid #7d7782;
+	padding: 10px; height:350px;
+}
+
+
+#barra { position:relative; z-index:100; height:30px; margin:5px 15px; }
+#barra a { margin:0 5px 0 0; position:relative; height:25px; line-height:25px; }
+.botao { font-size:12px; padding:5px; border:1px outset #cccccc; background:#cccccc; margin:2px; float:left;}
+.botao img { behavior: url(../../_shared/iepngfix.htc); vertical-align:middle; height:24px; width:24px;}
+#innerBarraDir { float:right }
+#buscaDiv ,#buscaDiv form { position:relative; height:25px; display:inline-block;}
+.buscaButton  { border:none; padding:0px; height:21px;}
+#campo_busca { width:100px; }
+
+#ordemDiv, #ordemDiv select { position:relative; display:inline-block;}
+#ordemDiv select { max-width:100px; font-weight:normal; margin:0 1px 0 0; padding:1px 5px;}
+
+#filtroDiv, #filtroDiv select { position:relative; display:inline-block;}
+#filtroDiv select { max-width:100px; font-weight:normal; margin:0 1px 0 0; padding:1px 5px;}
+#subFiltro { display:inline-block;} 
+
+#ordemDiv form, #filtroDiv form { height:30px; overflow:hidden; float:left; }
+
+#carregando {
+	position: absolute;
+	bottom:0; right:0;
+	z-index: 1;
+	font-size: 16px;
+	color:#FFFFFF;
+	background:#000000 url(imagens/loading.gif) no-repeat 5px center;
+	padding:5px 5px 5px 50px;
+}
+.autocompleteCarregando {
+	position: absolute;
+	bottom:8px; right:8px; width:26px; height:22px;
+	z-index: 1;
+	color:#FFFFFF;
+	background:#000000 url(imagens/preview.gif) no-repeat center right;}
+
+
+ul#lista { list-style:none; margin:; overflow:hidden; margin:0 15px; }
+ul#lista li { margin-bottom:2px; height:30px; overflow: hidden;}
+
+	.liTitulo { width:100%; padding:3px 0 !important;}
+	.liTitulo a { color: #fff;}
+	.liItem {  clear:both; background:#fff url(imagens/overlay-button.png) repeat-x; }
+	.liTitulo div, .liItem div, .hh {padding:3px; float:left; overflow:hidden; display:block; height:24px; line-height:24px;}
+	.ch { height:24px !important; _height:20px !important;}
+	.ch input { height:24px !important; _height:20px !important; border:none;}
+	.co { width:100px;}
+	.ch, .co, .f_link a { line-height:19px !important; _line-height:15px !important;}
+	.hh { padding:2px; height:19px; width:12px;}
+	
+	
+	.ui-selecting { background: #FECA40; }
+	.ui-selected { background: #F39814; color: white; }
+
+	
+	.l_ { }
+	.f_ { width:160px;}
+	.f_varchar-10, .f_varchar-11, .f_varchar-14, .f_int-11, .f_enum-nao-sim, .f_decimal { width:50px;}
+	.f_varchar-14 { width:100px; }
+	.f_varchar-18, .f_int-10-unsigned { width:100px; }
+	.f_float-9-2, .f_float, .f_date, .f_enum { width:80px; }
+	.f_varchar-100 { width:100px; }
+	.f_varchar-50 { width:70px; }
+	.f_datetime, .f_float-9-3, .f_bigint, .f_double { width:90px; }
+	.f_varchar-200 { width:180px; }
+	.f_varchar-300 { width:300px; }
+	.f_varchar-255 { width:200px; }
+	.autoCompleteTags { width:500px; margin-bottom:5px;}
+	.tag {
+					background:#eee url(imagens/overlay-button.png) repeat-x;
+					display: inline-block;
+					padding: 4px;
+					margin:0 5px 5px 0;
+					text-decoration: none;
+					-moz-border-radius: 5px;
+					-webkit-border-radius: 5px;
+					-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+					-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+					position: relative;}
+	.tag span { cursor:pointer; }
+	
+	.f_text { width:500px; height:100px; }
+	.tags { height:300px; widows:500px; overflow:auto}
+	
+	.f_decimal, .f_int-10-unsigned { text-align:center; }
+	.f_datetime, .f_float-9-3, .f_bigint, .f_double { text-align:right; }
+	
+	form.edit,form.edit_enum,form.edit_select { position:absolute;}
+	form.edit_enum { position:absolute; width:auto !important;}
+	form.edit input { width:98%; font-size:inherit; }
+	.destaqueBusca { font-weight:bold; background-color:#FFFF00; }
+	.hoverClassName  { font-weight:bold; letter-spacing:-0.08em; cursor:pointer; color:#900; }
+	.microTexto { font-size:7pt; font-weight:normal !important; line-height:.8em;}
+		.handle { cursor: n-resize; display: inline; }
+		.handle img { vertical-align:middle;}
+
+			.imgAmpliar { width:560px;}
+		
+		.navegacao { padding:10px 0 5px 0; clear:both; text-align:right; background-color:#FFFFFF; margin-bottom:2px;}
+		.navegacao a { margin:0 2px;}
+		.navegacao a.strong { background-color:#FFC1C1;}
+		
+	.divPergunta0 { border:1px #999 solid; margin:2px; display:block; float:left; width:150px; background-color:#CCC;}
+	.divPergunta1 { border:1px #999 solid; margin:2px; display:block; padding:0 0 0 10px; background-color:#bbb; }
+	.divPergunta2 { margin:0 0 0 30px; display:block; padding:0; background-color:#aaa;}
+	.divPergunta3 { margin:2px; display:block; padding:0;}
+	
+	.divPergunta0, .divPergunta1, .divPergunta2, .divPergunta3 { overflow:hidden; }
+	
+	.divPergunta0 label { font-size:12px; font-weight:bold;}
+	.divPergunta1 label { font-size:10px; font-weight:normal;}
+	.divPergunta2 label { font-size:10px;}
+	.divPergunta3 label { font-size:8px;}
+	.divPergunta0 label,.divPergunta1 label,.divPergunta2 label,.divPergunta3 label { margin:0; padding:0; height:19px; width:300px; }
+	.divPergunta0 label input,.divPergunta1 label input,.divPergunta2 label input,.divPergunta3 label input { margin:0; padding:0; height:17px; width:17px; border:none; }
+
+	
+			.clear { clear:both; }
+			.espaco { height:30px;}
+			.overline { text-decoration: line-through;} 
+			
+			.inplaceeditor-form { position:absolute; z-index:1000; background-color:#FFC; width:366px; margin-top:-3px; padding:0;}
+			
+			.editor_field { width:250px !important; height:21px !important; vertical-align:bottom; }
+			.editor_ok_button { width:48px !important; height:25px !important; border:1px #000 solid; margin:1px; }
+			.editor_cancel_button { width:58px !important; height:25px !important; border:1px #000 solid; margin:1px; }
+			
+			#formGeral { display:block;}
+				fieldset { background-color:#fff; padding:0; margin:0; border:none; position:relative;  margin:10px 0.25%;}
+				.campo, .campoList, .campoListTop { float:left;}
+				.campo { padding:10px;}
+				
+				div.legend { color:#000;
+						font-size: 13px;
+					}
+	
+				#formGeral small { height:17px; color:#000000; font-weight:bold; font-size:11px; display:block; margin:0 5px 5px 161px;}
+				label { padding:5px 5px 0; position:relative; font-size:12px;}
+				
+				input, select, textarea, .tags { padding:3px 5px; font-size:15px; color:#000; margin:0 5px; border:1px #adadad solid; font-weight:normal; letter-spacing:-0.04em; }
+				input, select { height:21px; line-height:21px; }
+				select { display:block; height:29px; padding:5px; margin:0 3px; }
+				option { border:none; }
+				
+				.inline { display:inline !important;}
+				.faixasValores { background-color:#ffffff; margin-bottom:5px; border:1px #999999 solid;}
+				
+				#formGeral button img { behavior: url(../../_shared/iepngfix.htc);}
+				.inputFocus { color:#009; border:1px #009 solid; }
+				.radioFocus { background:url(imagens/radio.gif) bottom no-repeat left;}
+				#formGeral img { vertical-align:middle;}
+				
+				.required { vertical-align:middle; font-weight:bold;}
+
+				.labelFocus { color:#009;}
+				
+				.arquivoUpload { display:block; background-color:#FFFFFF; border:1px #999999 solid; padding:5px; font-size:10px; position:relative;}
+				.porcentagemC { font-size:14px; font-weight:bold;}
+				.porcentagemP { width:0%; background-color:#33CC99; height:5px;}
+				
+				.btnBrowse { width:100px; height:20px; background-color:#666;}
+				#buttonPlaceholderArquivo {width:180px; height:25px;}
+				
+				#thumbnailsFotos { position:relative; background-color:#FFF; min-height:200px;}
+				#thumbnailsFotos, #thumbnailsArquivos,.thumbFilhos { position:relative; background-color:#FFF; clear:both; display:block;}
+				
+				.thumbDivFotos { background-color:#FFFFFF; border:1px #999999 solid; margin:1px 0 0 1px; padding:5px; position:relative; float:left; width:112px; display:inline; z-index:0;}
+				.thumbDivArquivos, .thumbFilhos li { background-color:#FFFFFF; border-bottom:1px #999999 solid; margin:1px 0 0 1px; position:relative; z-index:0;}
+				.thumbDivArquivos { background-color:#FFFFFF; border:1px #999999 solid; margin:1px 0 0 1px; padding:5px; position:relative; z-index:0;}
+				.thumbFilhos li .thumbFilhosTit { height:29px; clear:both; display:block; padding:2px; height:22px; background-color:#CCC; }
+				.thumbFilhos li { height:29px; clear:both; display:block; padding:2px;}
+				
+				.divFilhos { padding:5px;}
+				.addSubsetButton { margin:2px; }
+				
+				.thumbDivHandler { cursor: move;}
+				.thumbDivOpcoes { cursor: pointer; font-size:10px; border:1px #999999 solid; padding:2px; margin-top:5px; background-color:#FFC;}
+				.thumbOpcoes { position:absolute; background-color:#FFC; width:112px; padding:5px; border:1px #999999 solid; border-top: 0; z-index:100; left:-1px;}
+				.thumbDivApagar { font-size:10px; border:1px #CCCCCC outset; padding:3px;}
+				.thumbOpcoesLink {font-size:10px; display:block; padding:3px; font-weight:normal;}
+				.thumbDivInserirFull { font-size:10px; border:1px #CCCCCC outset;}
+				.thumbDivInserirMini { font-size:10px; border:1px #CCCCCC outset; padding:3px;}
+				.thumbDivInserirLink { font-size:10px; border:1px #CCCCCC outset; padding:3px;}
+				.thumbDivEditarLegenda { font-size:10px; border:1px #CCCCCC outset; padding:3px; background-color:#dddddd;}
+				.thumbInputLegenda { width:100px; height:40px; font-size:10px; margin:0; padding:1px;}
+				.thumbActive { background-color:#FFC;}
+				

@@ -1,0 +1,99 @@
+<pre>Array
+(
+    [FILE] =&gt; Array
+        (
+            [FileName] =&gt; phpuETItO
+            [FileDateTime] =&gt; 1268691113
+            [FileSize] =&gt; 1768615
+            [FileType] =&gt; 2
+            [MimeType] =&gt; image/jpeg
+            [SectionsFound] =&gt; ANY_TAG, IFD0, THUMBNAIL, EXIF, INTEROP
+        )
+
+    [COMPUTED] =&gt; Array
+        (
+            [html] =&gt; width=&quot;2592&quot; height=&quot;1944&quot;
+            [Height] =&gt; 1944
+            [Width] =&gt; 2592
+            [IsColor] =&gt; 1
+            [ByteOrderMotorola] =&gt; 0
+            [ApertureFNumber] =&gt; f/7.1
+            [Thumbnail.FileType] =&gt; 2
+            [Thumbnail.MimeType] =&gt; image/jpeg
+        )
+
+    [IFD0] =&gt; Array
+        (
+            [ImageDescription] =&gt;                                
+            [Make] =&gt; SONY
+            [Model] =&gt; DSC-W120
+            [Orientation] =&gt; 6
+            [XResolution] =&gt; 72/1
+            [YResolution] =&gt; 72/1
+            [ResolutionUnit] =&gt; 2
+            [DateTime] =&gt; 2010:01:09 17:19:03
+            [YCbCrPositioning] =&gt; 2
+            [Exif_IFD_Pointer] =&gt; 258
+            [UndefinedTag:0xC4A5] =&gt; PrintIM0300
+        )
+
+    [THUMBNAIL] =&gt; Array
+        (
+            [Compression] =&gt; 6
+            [Make] =&gt; SONY
+            [Model] =&gt; DSC-W120
+            [Orientation] =&gt; 6
+            [XResolution] =&gt; 72/1
+            [YResolution] =&gt; 72/1
+            [ResolutionUnit] =&gt; 2
+            [DateTime] =&gt; 2010:01:09 17:19:03
+            [JPEGInterchangeFormat] =&gt; 9428
+            [JPEGInterchangeFormatLength] =&gt; 7933
+        )
+
+    [EXIF] =&gt; Array
+        (
+            [ExposureTime] =&gt; 10/1600
+            [FNumber] =&gt; 71/10
+            [ExposureProgram] =&gt; 2
+            [ISOSpeedRatings] =&gt; 125
+            [ExifVersion] =&gt; 0221
+            [DateTimeOriginal] =&gt; 2010:01:09 17:19:03
+            [DateTimeDigitized] =&gt; 2010:01:09 17:19:03
+            [ComponentsConfiguration] =&gt; 
+            [CompressedBitsPerPixel] =&gt; 4/1
+            [ExposureBiasValue] =&gt; 0/10
+            [MaxApertureValue] =&gt; 48/16
+            [MeteringMode] =&gt; 5
+            [LightSource] =&gt; 0
+            [Flash] =&gt; 16
+            [FocalLength] =&gt; 535/100
+            [MakerNote] =&gt; SONY DSC &amp;  °	@°A°B°C°D°E°F°G°H°I°J°K°L°¨M°N°O°Œ°•Q¥ ?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?ØkØ?Ø?Ø?Ø?Ø?Ø?Ø…Ø?Ø?Ø?Ø?Ø?Ø?Ø?Ø?ØG¸ú;«}”@!@™+ÓûfjU„¶ØVÎp.¶3Vä^ @}ÊÙõG¡e¯Ô¸@Õ}3^=Aç…V%êŒVçç…^q}0}D”É…3V¬i@ˆQŠ·Rp$$ÿÿŸåÿÿÿÿÿÿii¶p}Ø@ii¶Í}i¶Í^ip}ipêˆ¶êˆ¶ŠŠç@[@,@¥}=Ø^kç_ˆ’ˆş¶v §ˆ¸@ì}”}ÇØˆäDŠ¼ _ TˆÁ0| 6Ñ“­u@¢}ihgÍåêÖp…õt÷@ş}Ş«ŠŠfÍ¶&amp;Šf f f f f f f  ’X»º¸B»:ˆêˆái i¡¶(¶Çp]pÁŠÜpıŠcŠØ®N¼|±İ–Å!~‹´Ø‡CÍ	çsf%£“ [‘õ‰›DaÑ2¤%‘#¬ØœA
+2S¨ÏP’¼;Å†å|Åù‡¬‡—ÓL¤Û‡¼‡‡-Q‡ _‡¹'‡šÔ8‡³ïƒ
+LğÃß‡AÃ‡gå‡Îm‡QÔè‡TÔêÉfLŠ}LÃN‡Bå´‡AÔÆ‡÷1è‡Ô.à¼âXlLÃ3‡Hå‡–‡Ë1iLñƒÕı¼Z+Xù‡#‡„å‡‡X1P‡W¼K0XÁ‡P|Å5å×‡‡VÔzÅVÔ»¼‡g¼_LáXQ\/ÍŠÍ9àÅlêÍêG\ê(^ØÍêğ¬}êy+¶Šêâ/]ˆêÍ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Ü8$y$•Ë)Ä\•pç×»(Ë)àp;)•Â¼Ã•yy•$$+$‘·‘yyòŒi] Ip(Ë)W•0I•#IQåwÓåw¶Ì/ŠÌ$•¡^Ä\ç)ĞÁ;)'çˆ;)6!&gt;)8*)Jjèx)ÌtfÌÄ¦ÌãılJjÌt§ÌyÄ\®¦•!&gt;)ıl*)Jjèx)Ìt•Ë)Ä\|åŒ•ÚTíÃ×³…ÌJzº»x·®^F-õ¨éö.„#9l6Ê0§õ°Yˆ-Á5«)dFêo
+;;(†P«Èéo¥96R'ô°tY	ÍoÁ5Ë#ü¨ij£·9(\—Ø$IiécÚU2ƒ-›y!rV:œ/$Ï¼29àÓ(tµ3o‰?#A}À&quot;Ä¸¤u9×E¶nlDŠAàİöå$lÛ&amp;M&amp;™0Ö@x
+Î¶(‡ƒï†ÈuMˆ|w¹¢ÉÄê	&gt;Ü@$K	ËAÌ+ P!öÉK!b”;ñIş2ÃS÷ú²¯,ÓÅ…ø.	¬K	Åi ØÜ†:ÙW{÷'¸?¹âÓµ;¹ğ¬‘/ÙÊº8¨U&amp;©òË&amp;¸A²(@WI.|örwö	D)'[ˆĞ;–*‡İR·°£Ñ=°:I¢2›sB.“fc¢OĞ'O¸e8ê(šGsgdI``ñ1‹Y_é,”öÅnf‘“0×	½Â`ï‹6KVŸ*Ñ¨: Ã?úlÂow$Güíx!i]âŞx–=xu¨'ócè´0Å2X+6ò÷2uMH»óÁ!y)İGb:	‰n ±,HĞGQKµ&quot;µ;È7¬&quot;g»¬´*¯èƒ7ºŞcĞ’TMÄ È7bËf‘2@Vëw;ª(è-BşHN_&amp;}~wíg)â\®&amp;ZRÉ¯è3Ê¹–´#RR	ïÔ(bïT2Jq&quot;hM*÷‚5÷%×2†˜cüF71”Q¥'º¨*z7Ä+œAV™$bj.FzÁ!¶¢…^6(0;èï/ß $Aò&quot;/3&gt;íNd*B­¥ »)$6•$~ßø ‰øæ^µ,–lÊ2ñw“¬·Â^;†•\I°¦4õµ¿åxï0N'3òÀ/Í3’_w9`/jN:áÅw´Â,?ñ{2™§ó*”Ì0¡TşÚ)2&gt;tÖ¿—4œÑZ³).Áù46à¡ÿZ&gt;»û+â¨ÆH!.ïG`¨íîMOÃ^,515£PŞ˜Ÿ)jq4=qØ,^He£PŒA?í.­Ôû8ü­Ô,Rê®5Ûõ9­Ï.(²&gt;NÉõ7À[ÍP=ˆÎ1÷%¹Î(Ó9Ş&amp;HÊÈ9'ÂdÏPk1w“hà(Y=&amp;s&quot;,ûw.Qez× ù477’ÄsßÎaŸ|Î%	àƒ}!è;9*°î,dùt'ËÕøÚ²ñ-d2±âğ}´x)iñ (é7#î„y3İ?3p,ô&gt;?Z£%¶ÓççÑÏ-$V2%¢U9Å¯%‘^M?53)M*Ûä¸Á½5uÛsÍŠ%WhNåD”²3½—”é/Us\åÄ&quot;h¸21Lø9õ¾b4³m0
+            [FlashPixVersion] =&gt; 0100
+            [ColorSpace] =&gt; 1
+            [ExifImageWidth] =&gt; 2592
+            [ExifImageLength] =&gt; 1944
+            [InteroperabilityOffset] =&gt; 9220
+            [FileSource] =&gt; 
+            [SceneType] =&gt; 
+            [CustomRendered] =&gt; 0
+            [ExposureMode] =&gt; 0
+            [WhiteBalance] =&gt; 0
+            [SceneCaptureType] =&gt; 0
+            [Contrast] =&gt; 0
+            [Saturation] =&gt; 0
+            [Sharpness] =&gt; 0
+        )
+
+    [INTEROP] =&gt; Array
+        (
+            [InterOperabilityIndex] =&gt; R98
+            [InterOperabilityVersion] =&gt; 0100
+        )
+
+)
+</pre>

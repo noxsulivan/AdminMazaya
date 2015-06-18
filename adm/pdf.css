@@ -1,0 +1,29 @@
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing: 0em;
+	margin: 0;
+	padding:0;
+}
+body { background: url(http://www.ngresinas.com.br/adm/imagens/admin_ngresinas.jpg) top left repeat-y; height:100%; width:100%  }
+	
+	
+h1 { color: #000; padding:20px;  font-size: 18pt; }
+h2 {  color: #000; padding: 5px; font-size: 16pt;}
+h3 { color: #000; padding: 5px;	font-size: 14pt;	margin: 2px 0; text-align:left;}
+h4 { padding:20px; color: #000;}
+
+#topo { padding:20px 100px 20px; text-align:right;}	
+
+#titulo { padding:20px 100px 20px; }
+#titulo h1{ color:#000;}
+#rodape { height:40px; padding:20px; }
+
+table {border-spacing: 0; border-collapse: separate; background-color:#fff;}
+td { font-size:8pt; vertical-align: top; padding:2px; margin:2px; border-width: 0 1px 1px 0; border-color: #ccc; border-style: solid; background-color:#FFF; }
+.tdDiv { border-width: 0 0 2px 0; border-color: #000; border-style: solid; }
+.tdClean { border-width: 0 0 0 0; }
+
+			.clear { clear:both; }
+			.espaco { height:30px;}
+			.overline { text-decoration: line-through;} 
+			

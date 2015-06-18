@@ -1,0 +1,157 @@
+* {
+	font-family: Tahoma;
+	letter-spacing: -0.02em;
+	margin: 0;
+	padding:0;
+}
+html { font-size:10px;}
+body {
+}
+.site {
+	background:none;
+}
+	
+#topo { display:none;}	
+
+#menu { display:none;}
+
+
+#conteudo { width:100%; overflow:auto; position:relative; height:auto !important;}
+#frame { position: relative;}
+	#frameBarra { display:none;}
+	#frameContent { position:relative; padding:10px; overflow:auto; height:auto !important;}
+
+h1 { color: #000; padding: 2px 0;}
+h2 {  background-color: #691F24; color: #fff; padding: 5px; font-size: 18px;}
+h3 { color: #000; padding: 5px;	font-size: 14px;	margin: 2px 0; text-align:left;}
+h4 {	font-size: 10px;	margin-top: 0;	color: #000;}
+a, .hoverClassName { text-decoration:none; color:#691F24;}
+ul { list-style:none;}
+img { border:none;}
+td { font-size:10px;}
+strong { color:#9D2F37; }
+
+#barra { display:none;}
+
+ul#lista { list-style:none; margin:10px 0;height:auto !important}
+ul#lista li { margin-bottom:2px; height:auto;}
+ul#lista li input { height:13px; width:13px; line-height:13px;}
+
+	.titulo {background-color: #691F24; }
+	.titulo a { color: #fff;}
+	.item { background-color:#efefef; clear:both;}
+	
+	.titulo div, .item div { padding:1px; height:auto; margin:2px 0 2px 2px; float:left; font-size:10px; overflow:hidden; display:inline;}
+	.ch, .hh, .co {display:none !important;}
+	
+	.f_ { width:160px;}
+	.f_varchar-10, .f_varchar-11, .f_varchar-14, .f_int-10-unsigned { width:50px;}
+	.f_varchar-14 { width:90px;}
+	.f_varchar-18 { width:100px;}
+	.f_float-9-2, .f_float, .f_date { width:80px;}
+	.f_varchar-100 { width:100px;}
+	.f_datetime { width:120px;}
+	.f_varchar-200 { width:180px;}
+	.f_varchar-255 { width:230px;}
+	.destaqueBusca { font-weight:bold; background-color:#FFFF00; }
+	.hoverClassName  { font-weight:bold; letter-spacing:-0.08em; cursor:pointer;}
+	.microTexto { font-size:7pt; font-weight:normal !important; line-height:.8em;}
+		.handle { cursor: n-resize; display: inline; }
+		.handle img { vertical-align:middle;}
+
+			.imgAmpliar { width:560px;}
+		
+		.navegacao { padding:10px 0 5px 0; clear:both; text-align:right; background-color:#FFFFFF; margin-bottom:2px;}
+		.navegacao a { padding:3px 6px; margin:2px; border:1px #CCCCCC outset; color:#333333;}
+		.navegacao a.strong { color:#990000; background-color:#FFC1C1;}
+
+fieldset { padding: 4px;}
+legend {
+	color: #000;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 3px;
+}
+
+			.clear { clear:both; height:1px !important; background-color:#666; display:block !important; float:none !important; padding:0 !important}
+			.espaco { height:30px;}
+			.overline { text-decoration: line-through;} 
+			
+			.inplaceeditor-form { position:absolute; z-index:1000; background-color:#FFF;}
+			
+			.editor_field { width:200px !important; height:15px !important;}
+			.editor_ok_button { width:35px !important; height:22px !important;}
+			
+			#formGeral { display:block;}
+				#formGeral .legendControlOpen, #formGeral .legendControlClose { behavior: url(../../_shared/iepngfix.htc);}
+				#formGeral fieldset { background-color:#dedede; margin-bottom:20px; padding:5px; border:1px #000000 solid; width:750px;}
+				.campo { float:left; min-height:45px; position:relative;}
+				#formGeral legend { padding:5px; font-weight:bold; background-color: #691F24; color:#dedede; border:1px #000000 solid;}
+				#formGeral small { height:17px; color:#000000; font-weight:bold; font-size:11px; display:block; margin:0 5px 5px 161px;}
+				label { padding:3px 3px 0 3px; height:17px; position:relative; margin:5px 0 0 5px; font-size:12px;}
+				.input { padding:3px 5px; font-size:12px; color:#000; margin:0 5px 5px 5px; border:1px #adadad solid; font-weight:bold;} /*input,#formulario textarea ,#formulario select*/
+				
+				#formGeral .separador { display:block;}
+				#formGeral .inputTextoSimples {  width:250px; height:16px; display:block;}
+				#formGeral .inputTextoPequeno {  width:120px; height:16px; display:block;}
+				#formGeral .inputCEP {  width:100px; height:16px; display:block;}
+				#formGeral .inputTelefone {  width:90px; height:16px; display:block;}
+				#formGeral .inputTexto {  width:730px;  height:100px; overflow:auto; display:block;}
+				.inputData {  width:90px; height:16px; display:block;}
+				#formGeral .inputNumero {  width:50px; height:16px; display:block;}
+				#formGeral .inputNumeroInline {  width:50px; height:16px; display:inline;}
+				#formGeral .inputDinheiro {  width:100px; height:16px; display:block; text-align:right;}
+				#formGeral .inputSenha {  width:80px; height:16px; display:block;}
+				#formGeral .inputRadio {  width:20px; height:16px; margin:0 5px;}
+				#formGeral .inputSelect { display:block;}
+				#formGeral .tipoPessoa { width:300px;}
+				#formGeral .cidadeEstado { float:left;}
+				#formGeral .divtipoPessoa { position:absolute; right:0; top:0;}
+				
+				.inline { display:inline !important;}
+				.faixasValores { background-color:#ffffff; margin-bottom:5px; border:1px #999999 solid;}
+				
+				#formGeral button img { behavior: url(../../_shared/iepngfix.htc);}
+				#formGeral .inputFocus { color:#009; border:1px #009 solid; }
+				#formGeral .radioFocus { background:url(imagens/radio.gif) bottom no-repeat left;}
+				#formGeral img { vertical-align:middle;}
+				
+				#formGeral .required { vertical-align:middle; border:1px #990000 solid; color: #990000;}
+
+				#formGeral .labelFocus { color:#009;}
+				
+				.arquivoUpload { display:block; background-color:#FFFFFF; border:1px #999999 solid; padding:5px; font-size:10px; position:relative;}
+				.porcentagemC { font-size:14px; font-weight:bold;}
+				.porcentagemP { width:0%; background-color:#33CC99; height:5px;}
+				
+				.btnBrowse { width:100px; height:20px; background-color:#666;}
+				#thumbnails { position:relative; background-color:#666666; padding-bottom:5px; height:200px; overflow-y:scroll;}
+				#thumbnailsArquivos { position:relative; background-color:#666666; overflow:auto;}
+				#thumbnailsArquivos li { color:#FFFFFF; font-style:italic; padding:5px;}
+				
+				.thumbDiv { background-color:#FFFFFF; border:1px #999999 solid; margin:5px 0 0 5px; padding:5px; position:relative; float:left; width:112px; display:inline;}
+
+				.thumbDivHandler { cursor: move;}
+				.thumbDivOpcoes { cursor: pointer; font-size:10px; border:1px #999999 solid; padding:2px;}
+				.thumbOpcoes { position:absolute; background-color:#FFFFFF; width:112px; padding:5px; border:1px #999999 solid; border-top: 0; z-index:100;}
+				.thumbDivApagar { font-size:10px; border:1px #CCCCCC outset; padding:3px;}
+				.thumbOpcoesLink {font-size:10px; display:block; padding:3px; font-weight:normal;}
+				.thumbDivInserirFull { font-size:10px; border:1px #CCCCCC outset;}
+				.thumbDivInserirMini { font-size:10px; border:1px #CCCCCC outset; padding:3px;}
+				.thumbDivInserirLink { font-size:10px; border:1px #CCCCCC outset; padding:3px;}
+				.thumbDivEditarLegenda { font-size:10px; border:1px #CCCCCC outset; padding:3px; background-color:#dddddd;}
+				.thumbInputLegenda { width:100px; height:40px; font-size:10px;}
+				
+				.sucesso { border:2px #006600 solid; color:#009933;}
+				
+				.obrigatorio { color:#990000;}
+				.imgThumb { background-color:#FFFFFF; border:1px #999999 solid; padding:5px;}
+					#formGeral .validation-failed { border: 1px #990000 solid !important; }
+					#formGeral .validation-advice { color: #990000 !important; font-size:10px; display:block; margin:0px 5px; position:relative;}
+					
+
+.form_explicacao {
+	font-size: 12px;
+	padding: 10px;
+}

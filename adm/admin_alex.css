@@ -1,0 +1,16 @@
+
+.site { background: url(../imagens/fundo_admin_alex.jpg) top repeat-x; }
+	
+h2 {  background-color: #17505C; }
+	form.edit input { color:#17505C;}
+				
+				#formGeral .required { border:1px #17505C solid; color: #17505C;}
+				
+				#formGeral fieldset { display:block; margin:10px 15px; float:none !important;}
+				
+				.obrigatorio { color:#17505C;}
+					#formGeral .validation-failed { border: 1px #17505C solid !important; }
+					#formGeral .validation-advice { color: #17505C !important;}
+					
+				
+				.yellow { background-color: #17505C; }
