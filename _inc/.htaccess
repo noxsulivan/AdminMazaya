@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} img
+RewriteRule ^(.*)$ /_scripts/imagem.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} request
+RewriteRule ^(.*)$ /_scripts/ajax.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} proto.js
+RewriteRule ^(.*)$ /_shared/_js/proto_gzip.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?$1
+
+</IfModule>

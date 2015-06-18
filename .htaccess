@@ -1,0 +1,43 @@
+Header unset ETag
+FileETag None
+
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|cur)$">
+Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} img
+RewriteRule ^(.*)$ /_scripts/imagem.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} down
+RewriteRule ^(.*)$ /_scripts/download.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} _geral.js
+RewriteRule ^(.*)$ /_scripts/_geral.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} proto.js
+RewriteRule ^(.*)$ /_shared/_js/proto_gzip.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} _Boleto
+RewriteRule ^(.*)$ /_scripts/boleto.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} _Request
+RewriteRule ^(.*)$ /_scripts/ajax.php?$1 [QSA,L,E=Permalinked:true]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ /index.php?$1 [QSA,L,E=Permalinked:true]
+
+</IfModule>
