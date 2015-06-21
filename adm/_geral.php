@@ -560,9 +560,6 @@ function ativarInPlaceEditor(_headers, _tabela){
 												   //onblur: 'ignore',
 												   placeholder: '<small>Editar</small>',
 												   callback : function(value, settings) {
-														 console.log(this);
-														 console.log(value);
-														 console.log(settings);
 														 ativaControles();
 														 atualizaCoresListagem();
 													},
@@ -580,9 +577,6 @@ function ativarInPlaceEditor(_headers, _tabela){
 												   submitdata: {'tabela':_tabela},
 												   placeholder: '<small>Editar</small>',
 												   callback : function(value, settings) {
-														 console.log(this);
-														 console.log(value);
-														 console.log(settings);
 														 ativaControles();
 														 atualizaCoresListagem();
 													},
@@ -619,9 +613,6 @@ function ativarInPlaceEditor(_headers, _tabela){
 												   cssclass:'edit_select',
 												   //onblur: 'ignore',
 												   callback : function(value, settings) {
-														 console.log(this);
-														 console.log(value);
-														 console.log(settings);
 														 ativaControles();
 														 atualizaCoresListagem();
 													},
@@ -673,8 +664,6 @@ function ativaControles(){
 
 
 					});
-					
-					$(".imgLi").smoothZoom({});
 					
 					$( document ).tooltip({ show:{ delay: 300, duration: 100 }, hide: false, position: { my: "left center", at: "right top"} });
 					
